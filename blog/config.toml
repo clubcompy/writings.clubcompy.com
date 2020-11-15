@@ -1,0 +1,6 @@
+baseURL = "https://clubcompy.com/blog"
+languageCode = "en-us"
+title = "ClubCompy Blog"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = Woldrich, Inc - Attribution-NonCommercial-NoDerivs

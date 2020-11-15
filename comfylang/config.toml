@@ -1,0 +1,5 @@
+baseURL = "https://clubcompy.com/comfylang"
+languageCode = "en-us"
+title = "Comfy Computer Language Documentation"
+theme = "ace-documentation"
+copyright = Woldrich, Inc - Attribution-NonCommercial-NoDerivs
