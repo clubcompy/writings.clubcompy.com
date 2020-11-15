@@ -1,3 +1,7 @@
 .idea
 build
 out
+blog/public/*
+blog/themes/*
+comfylang/resources/_gen/*
+comfylang/themes/*
