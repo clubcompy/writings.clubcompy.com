@@ -1,6 +1,21 @@
-baseURL = "https://clubcompy.com/blog"
+baseURL = "/"
 languageCode = "en-us"
 title = "ClubCompy Blog"
 theme = "mediumish-gohugo-theme"
 summaryLength = 25
 copyright = '''Woldrich, Inc. - <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>'''
+
+[Params]
+    mainSections = ["blog"]
+    intro = true
+    headline = "My headline"
+    description = "My description"
+    github = "https://github.com/clubcompy/writings.clubcompy.com"
+    # twitter = "https://twitter.com/XXX"
+    # email = "XXX@example.com"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Nov 16, 2020"
+
+[Permalinks]
+    post = "/:filename/"

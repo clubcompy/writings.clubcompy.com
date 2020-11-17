@@ -1,0 +1,50 @@
+{{ define "header"}}
+    {{- partial "_shared/navbar.html" . -}}
+{{ end }}
+
+{{ define "main" }}
+    {{- partial "_shared/title.html" . -}}
+    <div class="main-content">
+        <!-- Posts Index
+        ================================================== -->
+        {{ $.Scratch.Set "isFirstPage" true }}
+        {{ range .Pages }}
+          {{ if not ($.Scratch.Get "isFirstPage") }}
+            {{ $.Scratch.Add "pagesAfterFirst" (slice .) }}
+          {{ end }}
+          {{ $.Scratch.Set "isFirstPage" false }}
+        {{ end }}
+
+        {{ $post_paginator := .Paginate ($.Scratch.Get "pagesAfterFirst") 6 }}
+        {{ if and (not $post_paginator.HasPrev) (gt (len .Pages) 0) }}
+          <section class="current-post">
+            <h2><span>Current Post</span></h2>
+            <div class="row listcurrent">
+              {{ range first 1 .Pages }}
+                {{- partial "list-partials/firstpostbox.html" . -}}
+              {{ end }}
+            </div>
+          </section>
+        {{ end }}
+
+        {{ if gt $post_paginator.NumberOfElements 0 }}
+          <section class="recent-posts">
+              <div class="section-title">
+                  <h2><span>Other Posts</span></h2>
+              </div>
+              <div class="row listrecent">
+                  {{ range $post_paginator.Pages }}
+                      {{- partial "list-partials/postbox.html" . -}}
+                  {{end}}
+              </div>
+          </section>
+        {{ end }}
+        {{- partial "list-partials/pagination.html" $post_paginator -}}
+    </div>
+    {{- partial "_shared/alertbar.html" . -}}
+{{ end }}
+
+{{ define "footer"}}
+    {{- partial "_shared/jumbotron.html" . -}}
+    {{- partial "_shared/footer.html" . -}}
+{{ end }}
