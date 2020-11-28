@@ -1,0 +1,7 @@
+{{ $file := .Get "file" }}
+{{ $page := .Site.GetPage $file }}
+<div class="callout">
+{{ with $page }}
+  {{ .Content }}
+{{ end }}
+</div>

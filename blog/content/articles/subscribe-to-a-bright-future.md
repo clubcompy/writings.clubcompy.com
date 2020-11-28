@@ -16,38 +16,36 @@ dreams is finally coming true:  [ClubCompy](https://clubcompy.com) has been my
 passion project for years, and I have decided it is ready to be commercialized,
 starting with this post.
 
+{{< markdownCallout file="/snippets/latestCallToAction.md" >}}
+
 _\[NOTE:  We do not talk much about ClubCompy's features in this post.  We will
 save that for future articles.  For this inaugural blog post we thought it 
 would be illuminating to sketch out our approach to growing the business and
 give ourselves a touchstone for the future. - ed.\]_
 
-**💰 Want to join us in our mission to create awesome EdTech?  First, create an
-adult user account at [clubcompy.com](https://clubcompy.com).  Then, subscribe
-to our [Patreon](https://patreon.com).  After we get notified of your
-subscription, we will enable access to the KidCompy Virtual Computing 
-Environment for you and your family.  Thank you!**
-
-## Bootstrapping an Ethical Tech Startup
+## Fashioning a Tech Startup Ethos
 
 In order to build ClubCompy right and for our brand to be successful, I
 realized that we needed to establish a powerful company ethos that will protect
 and buoy us as we grow.
 
-We tie three disparate beliefs together here that will guide how our company 
-makes decisions:
+We are a premier software development company - our goal is to produce fine 
+software with no secret goals sewn in.  We tie three disparate beliefs together
+here that will guide how our company makes choices and to stave off the nastier
+secret goals:
 
-* **Digital Panopticon** &mdash; most companies and governments 
-that can spy on their customers for profit and control do so, often in the most
-underhanded ways.  And, given that the public is increasingly aware of and 
-disturbed by these infractions, there should be huge growth potential with those
-folks for any tech company that avoids collecting Personal Information.  We want
-to build a tech company known for respecting its users' privacy.
+* **Digital Panopticon** &mdash; most companies and governments that can spy on
+their customers for profit and control do so, often in the most underhanded
+ways.  And, given that the public is increasingly aware of and disturbed by
+these infractions, there should be huge growth potential with those folks for
+any tech company that avoids collecting Personal Information.  We want to build
+a tech company known for respecting its users.
 
 * **Software is Broken** &mdash; the best software is invisible, working 
 properly and solving problems dependably in the background.  Companies regularly
 die because some software they created goes out of control and begins failing in 
 loud and shocking ways.  So we theorize that companies with excellent software
-quality should be healthier and could/should live longer.  We want the company 
+quality should be healthier and could/should live longer.  We want our company 
 to live a long, bug-free life.
 
 * **Funding Models** &mdash; juiced by the **Digital Panopticon**, amoral tech 
@@ -96,17 +94,17 @@ vulnerable to competitors who do not (yet) suffer from the same degradation.
 We can counter this rot somewhat because we have discovered how to create
 virtually bug-free computer code.  (Not a shocker, this takes tons of care and 
 painstaking effort.)  That said, bugs in software extend beyond computer code 
-stemming from bad requirements, design and architecture.  These crisscross 
+stemming from bad requirements, design and architecture.  These crisscross with
 non-technical social and business concerns.  Non-code bugs are an unsolved
 problem that are exacerbated by the corporate-climbing project manager dilemma.
 
 Our working theory on how to address this is that senior leadership needs to A) 
 be technical, and B) have the courage to act as a countervailing wind, pushing
-back against bug accretion.  
+back against bug accretion - especially the non-code bugs.
 
 If a component is currently buggy, feature development must be paused until the
 bugs are eliminated to everyone's satisfaction.  We must always be nitpicky
-about bugs, even the small ones, and the top brass must give license and
+about bugs, even the small ones.  And, the top brass must give license and
 encouragement to teams to keep our pets' cages clean.
 
 Even given all those unknowns, we still view "feature-itis" as the chief
@@ -140,8 +138,9 @@ And then we can work on a third product, and so on ...
 
 How big of a value snowball we can build with your subscription dollars over
 time?  Can we get big enough to have multiple teams building products
-for you simultaneously?  Will we take requests?  Just how big can a company get
-with such a model?
+for you simultaneously?  Will we get so big that we can take requests?  Just 
+how big can a company get with a subscription model?  (Amazon and Netflix are
+really big!)
 
 Also, no matter how good our software quality is, all software has a finite 
 lifespan because technology moves on and people move on.  How should we handle
@@ -154,7 +153,7 @@ even sacrifice our principles to join the **Digital Panopticon** and mine our
 remaining users' data for digital gold.  This is a deal-with-the-devil scenario
 we would rather not consider.
 
-## Conclusion
+## TL;DR
 
 In conclusion, the status quo of **Software is Broken** would make us chase the
 quick cash of the **Digital Panopticon**.  We choose instead the honest 
@@ -162,7 +161,7 @@ quick cash of the **Digital Panopticon**.  We choose instead the honest
 and maybe a bit of custom-made hardware along with our bug-free coding standards 
 that will carry our products safely to '**done**'.  Our approach _feels_ like
 it will give us a competitive advantage, but we'll have to test it out to be
-certain. 
+certain.
 
 Thank you for reading!  Get ready to flip some tables in the software industry.
 
@@ -178,8 +177,4 @@ EdTech like ClubCompy and be much more ambitious.  It will live in another
 market segment altogether (don't pigeonhole us), one that everyone can benefit
 from.
 
-**💰 Want to join us in our mission to create awesome EdTech?  First, create an
-adult user account at [clubcompy.com](https://clubcompy.com).  Then, subscribe
-to our [Patreon](https://patreon.com).  After we get notified of your
-subscription, we will enable access to the KidCompy Virtual Computing 
-Environment for you and your family.  Thank you!**
+{{< markdownCallout file="/snippets/latestCallToAction.md" >}}
