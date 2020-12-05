@@ -1,4 +1,4 @@
-baseURL = "https://clubcompy.com/blog"
+baseURL = "https://clubcompy.com/"
 languageCode = "en-us"
 title = "ClubCompy Blog"
 theme = "mediumish-gohugo-theme"
@@ -6,7 +6,7 @@ summaryLength = 25
 copyright = '''Woldrich, Inc. - <img alt="Creative Commons License" style="border-width:0" src="/blog/images/by-nc-nd.png" />'''
 
 [Params]
-    mainSections = ["articles"]
+    mainSections = ["blog"]
     intro = true
     headline = "My headline"
     description = "My description"

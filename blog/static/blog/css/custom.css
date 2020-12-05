@@ -1,0 +1,85 @@
+.imageWithCaption img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5rem;
+  display: block;
+}
+
+.imageWithCaption figcaption {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.imageWithCaption figcaption h4 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+  font-family: serif;
+  font-size: 1.3rem;
+  margin-bottom: 2.5rem;
+}
+
+.callout {
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-radius: 10px;
+  border: #00ab6b solid 4px;
+  background-color: #afe9ff;
+  margin: 2rem 0;
+}
+
+.callout .emoji {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 2rem;
+  font-size: 4rem;
+}
+
+.callout .content {
+  display: table-cell;
+  width: 100%;
+  padding: 1.5rem;
+  text-align: justify;
+}
+
+.callout .content p:last-child {
+  margin: 0;
+}
+
+@media (max-width: 1023px) {
+  .imageWithCaption img {
+    margin-top: 1.3rem;
+  }
+
+  .imageWithCaption figcaption h4 {
+    font-size: 1rem;
+    margin-bottom: 1.3rem;
+  }
+
+  .callout {
+    display: block;
+  }
+
+  .callout .emoji {
+    display: block;
+    float: left;
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .callout .content {
+    display: block;
+    padding: 0.75rem;
+  }
+
+  .container .container {
+    padding: 0;
+  }
+}

@@ -1,5 +1,5 @@
 ---
-title: "Subscribe to a Bright Future"
+title: "FIRST POST: Subscribe to a Bright Future"
 date: 2020-11-18T05:37:23-08:00
 draft: true
 tags: ["startup","success","subscription","hype"]
@@ -16,7 +16,7 @@ dreams is finally coming true:  [ClubCompy](https://clubcompy.com) has been my
 passion project for years, and I have decided it is ready to be commercialized,
 starting with this post.
 
-{{< markdownCallout file="/snippets/latestCallToAction.md" >}}
+{{< markdownCallout emoji="💰" file="/snippets/latestCallToAction.md" >}}
 
 _\[NOTE:  We do not talk much about ClubCompy's features in this post.  We will
 save that for future articles.  For this inaugural blog post we thought it 
@@ -72,35 +72,36 @@ lowest score.
 
 Having ClubCompy target children as our primary user segment demands that we 
 provide the highest protections for their information and their safety.  We will
-never monetize yours or your childrens' personal information, habits, or actions
-taken on our website.  And, we will constantly make tough design decisions that
-favor your privacy and internet safety over shiny features.
+never monetize our subscribers' or their childrens' personal information,
+habits, or actions taken on our website.  And, we will constantly make tough 
+design decisions that favor our subscribers' privacy and internet safety over 
+shiny features.
 
 ### Software is Broken
 
 It is obvious that **Software is Broken**.  The biggest companies with the
-greatest technical talent clearly cannot maintain their software over time.
-This is partly due to "feature-itis" where a VP or project manager's climb in
-these organizations is tied to flashy, ephemeral pet projects or dubious 
-features not requested by users.
+greatest technical talent cannot maintain their software over time.
+We chalk this up to "feature-itis" where a VP or project manager's climb in
+these organizations is tied to a budget secured to deliver flashy, ephemeral 
+pet projects or dubious features not requested by users.
 
 Perhaps the original vision of the software was pure.  But over time, an 
 unceasing train of "feature-itis" insults will erode the software's 
 foundations.  For many reasons, bugs always creep in that become too costly to
-fix.  Total rewrites become a necessity, which are the riskiest of software
+fix.  Total rewrites soon become a necessity, which are the riskiest of software
 projects (~80% failure rate!)  Weakness induced by software rot makes a company
 vulnerable to competitors who do not (yet) suffer from the same degradation.
 
-We can counter this rot somewhat because we have discovered how to create
-virtually bug-free computer code.  (Not a shocker, this takes tons of care and 
+We will counter this rot somewhat with our discovery of how to create virtually 
+bug-free computer code.  (Not a shocker, this takes tons of care and 
 painstaking effort.)  That said, bugs in software extend beyond computer code 
 stemming from bad requirements, design and architecture.  These crisscross with
 non-technical social and business concerns.  Non-code bugs are an unsolved
 problem that are exacerbated by the corporate-climbing project manager dilemma.
 
 Our working theory on how to address this is that senior leadership needs to A) 
-be technical, and B) have the courage to act as a countervailing wind, pushing
-back against bug accretion - especially the non-code bugs.
+be technical, and B) have the courage to act like a countervailing wind in the 
+organization, pushing back against bug accretion - especially the non-code bugs.
 
 If a component is currently buggy, feature development must be paused until the
 bugs are eliminated to everyone's satisfaction.  We must always be nitpicky
@@ -121,7 +122,7 @@ with our approach to **Funding Models**.
 ### Funding Models
 
 The monthly subscription is the main vehicle we have chosen to steer clear of
-the sibling terrors, **Software is Broken** and **Digital Panopticon**.
+the sibling terrors of **Software is Broken** and **Digital Panopticon**.
 
 [ClubCompy](https://clubcompy.com) is our first product offering, and we intend
 to work on it for 4-6 years.  We will pay for hosting and development using your
@@ -158,18 +159,17 @@ we would rather not consider.
 In conclusion, the status quo of **Software is Broken** would make us chase the
 quick cash of the **Digital Panopticon**.  We choose instead the honest 
 **Funding Models** of monthly subscriptions, sales of physical and virtual merch
-and maybe a bit of custom-made hardware along with our bug-free coding standards 
-that will carry our products safely to '**done**'.  Our approach _feels_ like
-it will give us a competitive advantage, but we'll have to test it out to be
-certain.
+and maybe a bit of custom-made hardware along the way.  Our bug-free coding
+standards will carry our products safely to '**done**'.  This approach _feels_ 
+like it will give us a competitive advantage, but we'll have to test it out to 
+be certain.
 
 Thank you for reading!  Get ready to flip some tables in the software industry.
 
-In our next post we will discuss _Hype, Feature, Feedback ~ Planning Our Cycles
+In our next post we will discuss _Hype, Reflect, Iterate ~ Cycles
 of Startup Success_.  Don't you dare miss it!
 
-Love,<br/>
-Woldie
+{{< signature salutation="Love" >}}
 
 P.S.  Once ClubCompy is '**done**', what will our next product be?  That's a
 secret, you'll just have to wait and see.  😏  We will say that it will not be
@@ -177,4 +177,4 @@ EdTech like ClubCompy and be much more ambitious.  It will live in another
 market segment altogether (don't pigeonhole us), one that everyone can benefit
 from.
 
-{{< markdownCallout file="/snippets/latestCallToAction.md" >}}
+{{< markdownCallout emoji="💰" file="/snippets/latestCallToAction.md" >}}

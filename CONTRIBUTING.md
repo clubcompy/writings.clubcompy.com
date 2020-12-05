@@ -6,54 +6,59 @@ success.
 First and foremost, please become a Patreon subscriber to the site.
 With your monthly subscription, your family gains access to the _KidCompy
 Virtual Computing Environment™_ (VCE).  Success of this project depends on
-your direct financial support.  Ours will never become one more nosey business
-that collects and sells your personal information, so if you want this ClubCompy
-thing to happen, please open up the pocketbook for us.
+your direct financial support.  Please help us by funding ClubCompy's 
+development!
 
 Next, the success of this project will partly lie in the quality and
 accessibility of the information that surrounds it.  A critical part of that is
 our documentation site for the Comfy Computer Language (see the 
 <code>comfylang</code> subfolder) that runs within the VCE.  To document a 
-computer language in classic style is a massive effort and we could use your
-help with content creation and editing if you know anything about programming.
-Please use the GitHub Issues and Pull Requests to make your mark on this most 
-important endeavor.  THANK YOU!  
+computer language in classical style is a massive effort and we could use your
+help with technical content creation and editing that is accessible to 
+elementary school kids.  Please use the GitHub Issues and Pull Requests and 
+make your mark on this most important endeavor.  (Please see the _Code of 
+Conduct for Contributors_ section below for details.)  THANK YOU!  
 
-_/TODO: we have a statement of intent about the compylang site to write up in 
-the blog and link to here/_ 
+_/TODO: we have a statement of intent about content contributed to the 
+comfylang site to write up in the blog and link to here/_ 
 
-Finally, we will be following our [Hype, Feature, Feedback](hff blog post)
+Finally, we will be following our
+[Hype, Reflect, Iterate](https://clubcompy.com/blog/hype-reflect-iterate/)
 methodology to make our development of ClubCompy.com incremental.  Please
-give ClubCompy a boost!  If you have an audience with which you can share, 
-please synchronize your hype efforts with events we plan during our Hype
-phases.  You could:  watch and discuss our videos with your kids to further
-their knowledge and understanding, you could share links on social media with
-your community, make a critique video on YouTube, or stream live coding on
-the VCE and show off your coding skills.  Any energy you can lend to our
-cycles makes our chances of success that much greater.
+give ClubCompy a boost!  You could:  
+
+* Watch and discuss our videos or documentation with your kids to further their
+knowledge and understanding, 
+* Share links on social media with your community, 
+* Make a critique video on YouTube, or 
+* Stream live coding on the VCE and show off your coding skills
+
+Any energy you can lend to our development cycles makes our chances of success
+that much greater.
  
 ## Code of Conduct for Contributors
 
 When contributing to this repository, please first discuss the change you
-wish to make via GitHub issue with the owners of this repository before
+wish to make via a GitHub issue with the owners of this repository before
 making a change.  Woldrich, Inc. is not obligated to act on ideas or
 requests made via GitHub issues. 
 
 This project's owners cannot merge your Pull Request unless all contributors to
 the Pull Request assign their copyrights to content they have contributed.  
-Woldrich, Inc. reserves all rights to use, edit, or delete content contributed 
-for any reason or purpose.  If this is unacceptable, please do not open a
-Pull Request. 
+Woldrich, Inc. reserves all rights to use, edit, or delete all content 
+contributed for any reason or purpose.  You may be asked to sign a Contributor 
+License Agreement before we can merge your Pull Requests.  If this is 
+unacceptable, please do not open a Pull Request.
 
 We cannot currently pay for content submitted in Pull Requests.  However, as we 
 intend for the content to be in a continuous state of refresh and renewal, we
-want to acknowledge all contributions that have brought the site to its current
+want to acknowledge all contributions that have built the site up to its current
 great state.  Therefore, it is our intent that every page or section of the
 site should have a collapseable panel or tray with acknowledgements where
 contributors can place their screen name and a short message for posterity as
-part of their Pull Requests.  
+part of their Pull Requests.
 
-Please note we have a code of conduct, please follow it in all your
+Please note we have a code of conduct.  Please follow it in all your
 interactions with the project.
 
 ### Pull Request Process
