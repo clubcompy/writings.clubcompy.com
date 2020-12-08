@@ -1,0 +1,8 @@
+{{ $file := .Get "file" }}
+{{ $page := .Site.GetPage $file }}
+<div class="sidebar">
+  <h4>Sidebar: {{ .Get "title" }}</h4>
+  {{ with $page }}
+    {{ .Content }}
+  {{ end }}
+</div>

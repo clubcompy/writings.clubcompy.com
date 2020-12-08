@@ -83,3 +83,17 @@
     padding: 0;
   }
 }
+
+.sidebar {
+  display: block;
+  width: 100%;
+  border: #333 2px solid;
+  background-color: #d8d8d8;
+  padding: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.sidebar p:last-child {
+  margin: 0;
+}
