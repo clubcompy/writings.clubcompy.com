@@ -19,7 +19,8 @@
   font-weight: normal;
   font-style: italic;
   font-family: serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  margin-top: 0.75rem;
   margin-bottom: 2.5rem;
 }
 
@@ -57,7 +58,8 @@
   }
 
   .imageWithCaption figcaption h4 {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
     margin-bottom: 1.3rem;
   }
 

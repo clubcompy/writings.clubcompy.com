@@ -1,0 +1,4 @@
+{{ $src := .Get "src" }}
+{{ $float := .Get "float" }}
+{{ $alt := .Get "alt" }}
+<img style="float: {{ $float }};" src="{{ $src }}" alt="{{ $alt }}" />

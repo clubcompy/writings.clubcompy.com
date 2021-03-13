@@ -89,9 +89,9 @@ what will be done in the next cycle
 In the Iterate Phase, we'll hide with social media turned down, and implement
 the next planned feature(s).
 
-Part of the time we spend in the iteration phase must include releasing new 
+Part of the time we spend in the Iterate phase must include releasing new 
 features into the production environment.  This will include updates to our
-documentation website 
+documentation website.
 
 ### Reality Check
 
@@ -146,9 +146,9 @@ to do any Comfy coding needed for Hype videos or print.  Most of the live
 coding we do on Twitch will likely be casual Comfy scripting, with creative 
 direction provided by our users.
 
-Second, Anyone who develops code professionally knows the productivity boost of
+Second, anyone who develops code professionally knows the productivity boost of
 getting into a "flow" state.  Mixing Comfy coding tasks with Java and JavaScript
-coding tasks have proven to be challenging.  The amount of mental gear shifting
+coding tasks has proven to be challenging.  The amount of mental gear shifting
 required to switch between programming paradigms can be very disruptive.
 Therefore, delineating the Iterate Phase for the _particular type_ of coding 
 needed for the website and KidCompy VCE systems will help a lot with flow.  We 

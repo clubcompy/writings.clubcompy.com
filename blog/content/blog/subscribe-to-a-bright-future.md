@@ -2,7 +2,7 @@
 title: "FIRST POST: Subscribe to a Bright Future"
 date: 2020-11-18T05:37:23-08:00
 draft: true
-tags: ["startup","success","subscription","hype"]
+tags: ["startup","success","subscription","hype","flier"]
 ---
 
 I have always encouraged my programmer friends to adopt a side/hobby project to
@@ -10,18 +10,18 @@ get tech experience outside the particular technical niche they live in at their
 day job.  Usually these side projects get hosted on Github, which also provides
 legit resumé padding.
 
-Skills are great, and I've learned a ton, but my dream has always been to turn 
-these hobby/passion home projects into real businesses.  Well, one of those
-dreams is finally coming true:  [ClubCompy](https://clubcompy.com) has been my
-passion project for years, and I have decided it is ready to be commercialized,
-starting with this post.
+Skills are great, and I've learned a ton and landed a great job partly by
+showing off my home projects.  But, my dream has always been to turn one of
+these hobby/passion projects into a real business.  Well, my dream is coming
+true:  [ClubCompy](https://clubcompy.com), which has been my passion project for
+many years, is finally ready to be commercialized, starting with this post.
 
 {{< markdownCallout emoji="💰" file="/snippets/latestCallToAction.md" >}}
 
 _\[NOTE:  We do not talk much about ClubCompy's features in this post.  We will
-save that for future articles.  For this inaugural blog post we thought it 
+save that for future articles.  For this inaugural blog post we thought it
 would be illuminating to sketch out our approach to growing the business and
-give ourselves a touchstone for the future. - ed.\]_
+give ourselves a cultural touchstone for the future. - ed.\]_
 
 ## Fashioning a Tech Startup Ethos
 
@@ -29,34 +29,33 @@ In order to build ClubCompy right and for our brand to be successful, I
 realized that we needed to establish a powerful company ethos that will protect
 and buoy us as we grow.
 
-We are a premier software development company - our goal is to produce fine 
-software with no secret goals sewn in.  We tie three disparate beliefs together
-here that will guide how our company makes choices and to stave off the nastier
-secret goals:
+We are a premier software development company - our goal is to produce fine
+software with no nefarious secret goals sewn in.  We tie three disparate beliefs
+together here to achieve this and guide how our company proceeds:
 
 * **Digital Panopticon** &mdash; most companies and governments that can spy on
 their customers for profit and control do so, often in the most underhanded
 ways.  And, given that the public is increasingly aware of and disturbed by
-these infractions, there should be huge growth potential with those folks for
-any tech company that avoids collecting Personal Information.  We want to build
-a tech company known for respecting its users.
+these infractions, there should be huge growth potential for any tech company
+that avoids collecting Personal Information.  We want to build a tech company
+known for respecting its users and make that a selling point.
 
-* **Software is Broken** &mdash; the best software is invisible, working 
+* **Software is Broken** &mdash; the best software is invisible, working
 properly and solving problems dependably in the background.  Companies regularly
-die because some software they created goes out of control and begins failing in 
-loud and shocking ways.  So we theorize that companies with excellent software
-quality should be healthier and could/should live longer.  We want our company 
-to live a long, bug-free life.
+die because some software they created goes out of control and begins failing in
+loud and shocking ways.  We theorize that companies with excellent software
+quality should be healthier and could/should live longer.  We want our tech
+company to live a long, bug-free life.
 
-* **Funding Models** &mdash; juiced by the **Digital Panopticon**, amoral tech 
-firms are addicted to bundling and auctioning your sweet, sweet Personal 
+* **Funding Models** &mdash; juiced by the **Digital Panopticon**, amoral tech
+firms are addicted to bundling and auctioning your sweet, sweet Personal
 Information for cash.  Hindsight being 20/20, that reads as a lazy,
-soul-crushing, dead-end way to get paid.  You know what?  We'll take a hard pass
-on the soul-crushing!<br/>
+soul-crushing, dead-end way to get paid.  You know what?  We'll take a hard
+pass on the soul-crushing!<br/>
 <br/>Instead, digital subscriptions strike us as the most honest and ethical
-funding model for any tech business that wants to continually grow.  
-Subscriptions provide steady funding, which makes business planning less 
-stressful and less cutthroat.  And subscriptions allow the customer to vote on 
+funding model for any tech business that wants to continually grow.
+Subscriptions provide steady funding, which makes business planning less
+stressful and less cutthroat.  And subscriptions allow the customer to vote on
 the product with their wallets, with the freedom to start and stop their
 subscriptions at any time.
 
@@ -65,16 +64,16 @@ subscriptions at any time.
 We believe eventually the public will revolt against corporations and
 governments that hoard our data.  The aphorism that "data is the new gold" will
 someday transmogrify into "Personal Information is the new plutonium".  We will
-be prepared for this cultural shift and have a clear conscious when it comes.
+be prepared for this cultural shift and have a clear conscience when it comes.
 It is our mission to collect as little of your data as possible and still be
-able to host web applications.  Like golf, we'll always be playing for the 
+able to host web applications.  Like golf, we'll always be playing for the
 lowest score.
 
-Having ClubCompy target children as our primary user segment demands that we 
+Having ClubCompy target children as our primary user segment demands that we
 provide the highest protections for their information and their safety.  We will
 never monetize our subscribers' or their childrens' personal information,
-habits, or actions taken on our website.  And, we will constantly make tough 
-design decisions that favor our subscribers' privacy and internet safety over 
+habits, or actions taken on our website.  And, we will constantly make tough
+design decisions that favor our subscribers' privacy and internet safety over
 shiny features.
 
 ### Software is Broken
@@ -82,25 +81,25 @@ shiny features.
 It is obvious that **Software is Broken**.  The biggest companies with the
 greatest technical talent cannot maintain their software over time.
 We chalk this up to "feature-itis" where a VP or project manager's climb in
-these organizations is tied to a budget secured to deliver flashy, ephemeral 
+these organizations is tied to a budget secured to deliver flashy, ephemeral
 pet projects or dubious features not requested by users.
 
-Perhaps the original vision of the software was pure.  But over time, an 
-unceasing train of "feature-itis" insults will erode the software's 
+Perhaps the original vision of the software was pure.  But over time, an
+unceasing train of "feature-itis" insults will erode the software's
 foundations.  For many reasons, bugs always creep in that become too costly to
 fix.  Total rewrites soon become a necessity, which are the riskiest of software
 projects (~80% failure rate!)  Weakness induced by software rot makes a company
 vulnerable to competitors who do not (yet) suffer from the same degradation.
 
-We will counter this rot somewhat with our discovery of how to create virtually 
-bug-free computer code.  (Not a shocker, this takes tons of care and 
-painstaking effort.)  That said, bugs in software extend beyond computer code 
+We will counter this rot somewhat with our discovery of how to create virtually
+bug-free computer code.  (Not a shocker, this takes tons of care and
+painstaking effort.)  That said, bugs in software extend beyond computer code
 stemming from bad requirements, design and architecture.  These crisscross with
 non-technical social and business concerns.  Non-code bugs are an unsolved
 problem that are exacerbated by the corporate-climbing project manager dilemma.
 
-Our working theory on how to address this is that senior leadership needs to A) 
-be technical, and B) have the courage to act like a countervailing wind in the 
+Our working theory on how to address this is that senior leadership needs to A)
+be technical, and B) have the courage to act like a countervailing wind in the
 organization, pushing back against bug accretion - especially the non-code bugs.
 
 If a component is currently buggy, feature development must be paused until the
@@ -111,13 +110,13 @@ encouragement to teams to keep our pets' cages clean.
 Even given all those unknowns, we still view "feature-itis" as the chief
 destroyer of software.  Now, what if we could pull the dollars out of
 feature development as soon as we finish implementing the software's original
-vision?  Call the software '**done**' and then move on to something else.  Then 
-"feature-itis" would struggle to sink its teeth in.  
+vision?  Call the software '**done**' and then move on to something else.  Then
+"feature-itis" would struggle to sink its teeth in.
 
 As obvious as that plan sounds, getting to '**done**' almost never happens in
 the software biz for a bevy of reasons.  For us, calling '**done**' will
 actually play a major part in our success story, especially as it dovetails
-with our approach to **Funding Models**.   
+with our approach to **Funding Models**.
 
 ### Funding Models
 
@@ -127,28 +126,28 @@ the sibling terrors of **Software is Broken** and **Digital Panopticon**.
 [ClubCompy](https://clubcompy.com) is our first product offering, and we intend
 to work on it for 4-6 years.  We will pay for hosting and development using your
 subscriptions.  After we will implement our vision, and get it completely
-bug free, we will call it '**done**'.  ClubCompy will then transition to 
-maintenance mode and, should everything go to plan, CC will require only a 
+bug free, we will call it '**done**'.  ClubCompy will then transition to
+maintenance mode and, should everything go to plan, CC will require only a
 fraction of its engineering resources for upkeep and ongoing operation.
 
-By calling a product of ours '**done**', we can do something amazing:  plow the 
-monthly subscription dollars allocated to engineering into the development of 
-an _entirely new_ software product.  And when that product is released, our 
+By calling a product of ours '**done**', we can do something amazing:  plow the
+monthly subscription dollars allocated to engineering into the development of
+an _entirely new_ software product.  And when that product is released, our
 subscribers will have access to both products with no bump in subscription fees.
-And then we can work on a third product, and so on ...  
+And then we can work on a third product, and so on ...
 
 How big of a value snowball we can build with your subscription dollars over
 time?  Can we get big enough to have multiple teams building products
-for you simultaneously?  Will we get so big that we can take requests?  Just 
+for you simultaneously?  Will we get so big that we can take requests?  Just
 how big can a company get with a subscription model?  (Amazon and Netflix are
 really big!)
 
-Also, no matter how good our software quality is, all software has a finite 
+Also, no matter how good our software quality is, all software has a finite
 lifespan because technology moves on and people move on.  How should we handle
 the inevitable "end of life" of something like a ClubCompy?  We still have
 so many questions.
 
-We are certain that, if we ever allow **Software is Broken** to rule in our 
+We are certain that, if we ever allow **Software is Broken** to rule in our
 dojo, then our subscribers will rightly abandon us.  In desperation, we might
 even sacrifice our principles to join the **Digital Panopticon** and mine our
 remaining users' data for digital gold.  This is a deal-with-the-devil scenario
@@ -157,17 +156,17 @@ we would rather not consider.
 ## TL;DR
 
 In conclusion, the status quo of **Software is Broken** would make us chase the
-quick cash of the **Digital Panopticon**.  We choose instead the honest 
+quick cash of the **Digital Panopticon**.  We choose instead the honest
 **Funding Models** of monthly subscriptions, sales of physical and virtual merch
 and maybe a bit of custom-made hardware along the way.  Our bug-free coding
-standards will carry our products safely to '**done**'.  This approach _feels_ 
-like it will give us a competitive advantage, but we'll have to test it out to 
+standards will carry our products safely to '**done**'.  This approach _feels_
+like it will give us a competitive advantage, but we'll have to test it out to
 be certain.
 
 Thank you for reading!  Get ready to flip some tables in the software industry.
 
-In our next post we will discuss _Hype, Reflect, Iterate ~ Cycles
-of Startup Success_.  Don't you dare miss it!
+In our next post we will discuss _Hype, Reflect, Iterate ~ Cycles of Startup
+Success_.  Don't you dare miss it!
 
 {{< signature salutation="Love" >}}
 
