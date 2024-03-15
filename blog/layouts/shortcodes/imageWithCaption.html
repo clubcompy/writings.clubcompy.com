@@ -1,8 +1,0 @@
-{{ $src := .Get "src" }}
-{{ $caption := .Get "caption" }}
-<figure class="imageWithCaption">
-  <img src="{{ $src }}" alt="" />
-  {{ with $caption }}
-    <figcaption><h4>{{ $caption }}</h4></figcaption>
-  {{ end }}
-</figure>

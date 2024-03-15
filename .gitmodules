@@ -1,6 +1,6 @@
 [submodule "comfylang/themes/ace-documentation"]
 	path = comfylang/themes/ace-documentation
 	url = https://github.com/vantagedesign/ace-documentation.git
-[submodule "blog/themes/mediumish-gohugo-theme"]
-	path = blog/themes/mediumish-gohugo-theme
-	url = https://github.com/lgaida/mediumish-gohugo-theme.git
+[submodule "blog/themes/m10c"]
+	path = blog/themes/m10c
+	url = https://github.com/vaga/hugo-theme-m10c.git
