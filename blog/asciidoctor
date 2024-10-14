@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+/usr/local/bin/asciidoctor \
+-r asciidoctor-html5s \
+-b html5s
+-r asciidoctor-diagram \
+-a source-highlighter=pygments \
+-a pygments-linenums-mode=inline \
+-a pygments-css=style \
+-a pygments-style=monokai "$@"

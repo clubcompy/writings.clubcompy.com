@@ -1,0 +1,8 @@
+{{ $file := .Get "file" }}
+{{ $page := .Page.GetPage $file }}
+<div class="callout">
+  <div class="emoji"><strong>{{ .Get "emoji" }}</strong></div>
+  <div class="content">{{ with $page }}
+    {{ .Content }}
+  {{ end }}</div>
+</div>

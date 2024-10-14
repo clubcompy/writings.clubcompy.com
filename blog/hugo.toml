@@ -1,0 +1,45 @@
+baseURL = 'https://blog.clubcompy.com/'
+languageCode = 'en-us'
+title = 'ClubCompy Developer Blog'
+theme = "m10c"
+[Params]
+  author = "ClubCompy Tech Team"
+  avatar = "/images/DevBlogLogo.png"
+  mainSections = ['posts']
+  intro = true
+  headline = "My headline"
+  description = "Behind-the-Scenes Development Treatises of Great Import from Earth's Most Retrofuturistic Computer Learning Website"
+  github = "https://github.com/clubcompy/writings.clubcompy.com"
+  twitter = "https://twitter.com/ClubCompy"
+  # email = "XXX@example.com"
+  opengraph = true
+  shareTwitter = true
+  dateFormat = "Mon, Nov 16, 2020"
+
+[Permalinks]
+  post = "/:filename/"
+
+
+[markup]
+[markup.asciidocExt]
+  backend = 'html5'
+  extensions = ["asciidoctor-html5s", "asciidoctor-diagram"]
+  failureLevel = 'fatal'
+  noHeaderOrFooter = true
+  preserveTOC = false
+  safeMode = 'unsafe'
+  sectionNumbers = false
+  trace = false
+  verbose = true
+  workingFolderCurrent = true # (1)
+  [markup.asciidocExt.attributes]
+    imagesdir = "/diagrams"
+    sourceHighlighter = "rogue"
+    rouge-css = "style"
+    icons = "font"
+
+
+[security]
+[security.exec]
+allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^asciidoctor$']
+

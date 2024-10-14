@@ -1,0 +1,7 @@
+{{ $file := .Get "file" }}
+{{ $page := .Page.GetPage $file }}
+<div class="sidebar">
+  <div class="content">{{ with $page }}
+    {{ .Content }}
+  {{ end }}</div>
+</div>

@@ -1,0 +1,27 @@
+---
+title: "Asciidoctor Hugo & PlantUML"
+date: "2020-07-31"
+draft: false
+categories: ["Hugo", "Asciidoc"]
+tags: ["asciidoctor", "hugo", "markup", "uml", "configuration"]
+onhomepage: true
+---
+
+:imagesoutdir: content/diagrams
+
+= Asciidoctor Hugo & PlantUML
+
+[plantuml, simple-diagram, svg]
+....
+start
+:Init Phase;
+:Transfer Phase;
+note right
+  long running activity,
+  process requires signal to proceed
+end note
+:Termination Phase;
+stop
+....
+
+Dave was here
