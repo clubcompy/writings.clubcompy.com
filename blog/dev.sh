@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-export scriptDir=$(dirname $0)
-export PATH=$scriptDir:$PATH
+export scriptDir=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+export PATH=/usr/local/bin:$scriptDir:$PATH
 pushd $scriptDir
-hugo serve --logLevel info --bind=0.0.0.0 --buildDrafts --disableFastRender --destination public
+rm -r -f public/*
+rm -r -f static/diagrams/*
+hugo server --logLevel info --bind=0.0.0.0 --buildDrafts --disableFastRender
 popd

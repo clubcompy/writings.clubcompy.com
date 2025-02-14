@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+export originalParams="$@"
+export scriptDir=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+export mappedTmpToData=`echo $originalParams | sed 's/\/tmp\//\/data\//g'`
+export infilename=`echo $originalParams | sed -En 's/.*(-i ([^ ]+)).*/\2/p'`
+export outfilename=`echo $originalParams | sed -En 's/.*(-o ([^ ]+)).*/\2/p'`
+# echo "in filename = $infilename"
+# echo "out filename = $outfilename"
+
+[ -d $scriptDir/logs ] || mkdir $scriptDir/logs
+
+npx mmdc -i $infilename -o $outfilename -p $scriptDir/config/puppeteer-config.json &>> $scriptDir/logs/mermaid.out

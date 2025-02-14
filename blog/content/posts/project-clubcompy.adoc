@@ -1,0 +1,620 @@
+---
+title: "Project: ClubCompy"
+date: "2025-01-01"
+draft: true
+categories: ["ClubCompy", "Business"]
+tags: ["clubcompy", "vce", "business", "users", "planning"]
+onhomepage: true
+---
+
+:docinfodir: config
+:imagesoutdir: static/diagrams
+
+= Project: ClubCompy
+
+**What we are working on**
+
+[plantuml, format=svg]
+....
+hide stereotype
+
+skinparam titleBorderRoundCorner 15
+skinparam titleBorderThickness 2
+skinparam titleBorderColor black
+skinparam titleFontSize 24
+skinparam titleBackgroundColor Transparent
+
+skinparam rectangle {
+  <<Work in progress>> {
+    BackgroundColor #e5ffe5
+  }
+
+  <<Possible next work>> {
+    BackgroundColor #c6e0ff
+  }
+
+  <<Diagram Row>> {
+    BorderColor transparent
+    FontColor white
+  }
+}
+
+skinparam {
+  <<Work in progress>> {
+    UsecaseBackgroundColor #c7ffc7
+  }
+
+  <<Possible next work>> {
+    UsecaseBackgroundColor #9fccff
+  }
+}
+
+title "ClubCompy Flier Newsletter To-do's"
+
+legend left
+Legend
+| <size:30>⬭</size> | Feature to develop |
+| <size:12> ◯ </size> | Intended outcome |
+| <color:green><size:18> ■ </size></color> | What we're working on now |
+| <color:blue><size:18> ■ </size></color> | Candidates for what to work on next |
+end legend
+
+/' Row 1 '/
+
+rectangle "Row 1" <<Diagram Row>> {
+    rectangle "Organize article submission campaign" as organize_panel {
+        (Run promotion) as promote_flier
+        (Offer free subs) as site_subs
+
+        () "Gather early\nnet promoters" as net_promoter
+
+        promote_flier --> net_promoter
+        site_subs --> net_promoter
+    }
+
+    rectangle "Write 1st party Flier content" as articles_panel <<Possible next work>> {
+        (Editor's corner) as editors_corner <<Possible next work>>
+        (Game article) as game_article <<Possible next work>>
+
+        () "Make 1st\nFlier issue" as first_issue
+
+        editors_corner --> first_issue
+        game_article --> first_issue
+    }
+
+    rectangle "Automated mail merge" as mail_merge_panel {
+        (Pick a Print\non-demand SaaS) as pick_saas
+        (Scrape chargebee\nfor subs list) as chargebee_lookup
+        (Build monthly\nprinting workflow) as print_workflow
+
+        () "Fulfill" as fulfill
+
+        pick_saas --> fulfill
+        chargebee_lookup --> fulfill
+        print_workflow --> fulfill
+    }
+}
+
+....
+
+'''
+
+[plantuml, format=svg]
+....
+hide stereotype
+
+skinparam titleBorderRoundCorner 15
+skinparam titleBorderThickness 2
+skinparam titleBorderColor black
+skinparam titleFontSize 24
+skinparam titleBackgroundColor Transparent
+
+skinparam rectangle {
+  <<Work in progress>> {
+    BackgroundColor #e5ffe5
+  }
+
+  <<Possible next work>> {
+    BackgroundColor #c6e0ff
+  }
+
+  <<Diagram Row>> {
+    BorderColor transparent
+    FontColor white
+  }
+}
+
+skinparam {
+  <<Work in progress>> {
+    UsecaseBackgroundColor #c7ffc7
+  }
+
+  <<Possible next work>> {
+    UsecaseBackgroundColor #9fccff
+  }
+}
+
+title "ClubCompy.com Website To-do's"
+
+legend left
+Legend
+| <size:30>⬭</size> | Feature to develop |
+| <size:12> ◯ </size> | Intended outcome |
+| <color:green><size:18> ■ </size></color> | What we're working on now |
+| <color:blue><size:18> ■ </size></color> | Candidates for what to work on next |
+end legend
+
+/' Row 1 '/
+
+rectangle "Row 1" <<Diagram Row>> {
+    rectangle "Users and Subscriptions Panel" as subscription_panel <<Work in progress>> {
+        (My kids) <<Possible next work>> as my_kids
+        (Subscriptions\nmicroservice) <<Work in progress>> as subscription_microservice
+        (Subscribe/\nUnsubscribe) <<Work in progress>> as subscribe_unsubscribe
+
+        () "Table stakes\nneeded for growth" as grow
+
+        my_kids - subscription_microservice
+        subscription_microservice - subscribe_unsubscribe
+
+        subscription_microservice --> grow
+        subscribe_unsubscribe --> grow
+    }
+
+    rectangle "Dashboard Files Panel" as files_panel {
+        (Backup, Import,\nExport file operations) as file_ops
+        (File tree widget) as file_tree
+
+        () "Graphical Compy\nfile management" as file_mgmt
+        () "Get files in/out of\nCompy File System" as file_io
+
+        file_ops --> file_io
+        file_tree --> file_io
+        file_ops --> file_mgmt
+        file_tree --> file_mgmt
+    }
+
+    rectangle "Addons and Goods" as addons {
+        (Cloud file sync) as cloud_sync
+
+        () "Hot backups" as hot_backups
+        () "Device sync" as device_sync
+
+        (Gift Subscriptions) as gift_subs
+        () "Enable holiday\ngiving" as holiday_buckerinos
+
+        cloud_sync --> hot_backups
+        cloud_sync --> device_sync
+        gift_subs --> holiday_buckerinos
+    }
+}
+
+
+/' Row 2 '/
+
+rectangle "Row 2" <<Diagram Row>> {
+    rectangle "Advice/Customer Feedback Dialog" <<Possible next work>> as feedback_dialog {
+        (Advice Microservices) <<Possible next work>> as advice_ms
+        (Button and\nPopup HTML) <<Possible next work>> as advice_pop
+        (Add ADVICE\nkeyword to VCE) <<Possible next work>> as advice_kw
+
+        () "Official support\ncomms conduit" as support
+
+        advice_ms -> support
+        advice_ms <-- advice_pop
+        support <-- advice_kw
+    }
+
+    rectangle "Dashboard Sharing Panel" as sharing_panel {
+        (Favorites) as favorites
+        () "Mount 3rd-party shares\nas VCE folders" as share_fldr
+
+        (My Shares) as my_shares
+        () "Add metadata to\nuser-created SHARE's" as share_md
+        () "View SHARE statistics" as share_stat
+
+        favorites --> share_fldr
+        my_shares --> share_md
+        my_shares --> share_stat
+    }
+
+    rectangle "Rewrite Homepage" as homepage {
+        (Redo whole\nthing) as make_sale
+
+        () "Sell" as sell
+
+        make_sale --> sell
+    }
+}
+
+/' Wiring between modules '/
+file_io ..> favorites
+
+....
+
+'''
+
+[plantuml, format=svg]
+....
+hide stereotype
+
+skinparam titleBorderRoundCorner 15
+skinparam titleBorderThickness 2
+skinparam titleBorderColor black
+skinparam titleFontSize 24
+skinparam titleBackgroundColor Transparent
+
+skinparam rectangle {
+  <<Work in progress>> {
+    BackgroundColor #e5ffe5
+  }
+
+  <<Possible next work>> {
+    BackgroundColor #c6e0ff
+  }
+
+  <<Diagram Row>> {
+    BorderColor transparent
+    FontColor white
+  }
+}
+
+skinparam {
+  <<Work in progress>> {
+    UsecaseBackgroundColor #c7ffc7
+  }
+
+  <<Possible next work>> {
+    UsecaseBackgroundColor #9fccff
+  }
+}
+
+title "ClubCompy.com Virtual Computing Environment (VCE) To-do's"
+
+legend left
+Legend
+| <size:30>⬭</size> | Feature to develop |
+| <size:12> ◯ </size> | Intended outcome |
+| <color:green><size:18> ■ </size></color> | What we're working on now |
+| <color:blue><size:18> ■ </size></color> | Candidates for what to work on next |
+end legend
+
+/' Row 1 '/
+
+rectangle "Row 1" <<Diagram Row>> {
+
+    rectangle "Internet and Sharing" <<Possible next work>> as networking {
+        (Award Record array) as awards
+        (Peer-to-peer and\nsharing syscalls) as sharing_syscalls
+        (SHARE keyword) <<Possible next work>> as share
+
+        () "High scores list" as high_scores
+        () "Trophies" as trophies
+        () "Viral spread" as viral
+
+        awards - sharing_syscalls
+        sharing_syscalls - share
+
+        awards --> high_scores
+        awards --> trophies
+        share --> viral
+    }
+
+    rectangle "Movable sprites" as movable_sprites {
+        (SPMAP keyword) as spmap
+        (Sprite Record\nArray) as sprite
+        () "Move independent\nof Playfields" as move_ind
+        () "Collision detection with\nPlayfield, other Sprites" as collision
+
+        spmap - sprite
+        sprite --> move_ind
+        sprite --> collision
+    }
+
+    rectangle "Minor additional features" as addl_features {
+        (SAY keyword speaks\nwhat is printed) as say
+        () "Screen-reader user\naccessibility" as screen_reader
+
+        (DICTIONARY\nkeyword) as dict
+        () "Native key-value\npairs & trees" as kvpair
+
+        (meta number field to\n$Char, $Cursor record) as meta
+        (over array field to\n$Mouse record) as over
+        () "Hyperlink-style\nComfy programs" as hyperlinks
+
+        say --> screen_reader
+        dict --> kvpair
+        meta --> hyperlinks
+        over --> hyperlinks
+    }
+}
+
+/' Row 2 '/
+
+rectangle "Row 2" <<Diagram Row>> {
+
+    rectangle "Proper module support" as module_support {
+        (LOAD MODULE keyword) as module
+        (module syscalls) as module_syscall
+        () "Terminate-and-Stay-Resident (TSR)\nstyle programming" as TSR
+        () "Dynamic-Link-Library\nstyle programming" as DLL
+
+        module_syscall --> TSR
+        module_syscall --> DLL
+        module - module_syscall
+    }
+
+    rectangle "Binary files" as binary_files {
+        (Comfy types\nserialization) as rec_ser
+        () "Native\nFile format" as file_types
+
+        ('Raw bytes'\nbinary file mode) as raw_bytes
+        () "Enable\ncompact storage" as compact
+
+        rec_ser --> file_types
+        raw_bytes --> compact
+    }
+
+    rectangle "Box im" <<Diagram Row>> as videogames_outer {
+        rectangle "Double Box" <<Diagram Row>> {
+            () "Proper\nvideogames" as videogames
+        }
+    }
+}
+
+/' Row 3 '/
+
+rectangle "Row 3" <<Diagram Row>> {
+    rectangle "Bytecode interpreter" as machine_coding {
+        () "Bootstrapping binary\ndevelopment" as bootstrapping
+        () "Maximum\nperformance" as max_performance
+
+        (MONITOR keyword) as monitor
+        (Memory and\nexec syscalls) as exec
+        (Virtual CPU) as cpu
+
+        bootstrapping <-- monitor
+        max_performance <-- cpu
+
+        monitor - exec
+        exec - cpu
+    }
+
+    rectangle "System configuration" as sys_config {
+        () "Low-vision user\naccessibility" as color_access
+        () "Alternate shell/\noperating environment" as alt_shell
+
+        (Set default colors) as default_colors
+        (Autoexec programs\nat startup) as autoexec
+
+        alt_shell <-- autoexec
+        color_access <-- default_colors
+    }
+
+    rectangle "Sound system" as sound_system {
+        () "FM music" as fm_music
+        () "Sound\neffects" as sound_effects
+
+        (SOUND, START,\nSTOP keywords) as sound
+        (Streaming\nsyscalls) as streaming
+        (Voice Record\narray) as voices
+
+        sound - streaming
+        streaming - voices
+
+        fm_music <-- voices
+        sound_effects <-- voices
+    }
+}
+
+/' Wiring between modules '/
+
+kvpair ..> module_syscall
+move_ind --> videogames
+collision --> videogames
+videogames <-- fm_music
+videogames <-- sound_effects
+TSR ..> alt_shell
+DLL ..> alt_shell
+
+....
+
+'''
+'''
+
+_This is a wiki-style blog entry: we will use this page as our semi-quarterly
+status update. Please bookmark this page and https://x.com/ClubCompy[@ClubCompy on 𝕏]
+if you are interested in watching our progress._
+
+## Jan 18, 2025
+
+Hello, this is Woldie and welcome to my passion project, ClubCompy. I've had a
+ton of fun building it. ClubCompy has been like solving a giant puzzle. Demoing
+it even landed me a coding job at Nike long, long ago!
+
+[.small-image]
+image::/images/race_screen.png["A Super Sprint-style racing game written with a previous incarnation of ClubCompy"]
+
+[.small-image]
+video::WrOEf3pwp5A[youtube,width=1280]
+
+[.text-center]
+xref:https://clubcompy.com/documents/Ep1_Printout.pdf[Sample program #1]
+
+[.text-center]
+xref:https://clubcompy.com/documents/Ep2_Printout.pdf[Sample program #2]
+
+[.text-center]
+xref:https://clubcompy.com/documents/Ep3_Printout.pdf[Sample program #3]
+
+[.text-center]
+xref:https://clubcompy.com/documents/2x2_Mode_0_Character_Map_Graph_Paper.pdf[2x2 Redefineable Character Worksheet]
+
+
+#### Universe is Calling
+
+While that's all fine and good, the codebase has matured enough now that my
+vision for many features is approaching what I imagined would be their final
+forms. The software has officially reached the 'valuable IP' stage IMHO and I
+feel obligated to build a real business around it, starting with... [drumroll
+please]
+
+[.text-center]
+The **ClubCompy Flier** Newsletter!
+
+#### Extra! Extra! Read All About It
+
+A subscription to the Flier will supply the reader with type-in computer
+programming projects (mostly wholesome games) in a friendly, printed and mailed
+newsletter format! Even the youngest reader can use the ClubCompy Flier and
+https://clubcompy.com[clubcompy.com] to make programs and bootstrap their
+understanding of computers and computer programming.
+
+We will transmit sophisticated technical concepts to kiddo who will soak it all
+up like a sponge, prepping them for modern life.
+
+Our product will mimic the success of another my own children have enjoyed:
+Kiwi Crates from https://www.kiwico.com[KiwiCo]!
+
+[.small-image]
+image::/images/KiwicoScreenshot.png["Sales message on kiwico.com that reads: Every month, make something awesome"]
+
+I have watched my young kiddos' faces light up when a physical package gets
+delivered to the house with their name on the label. I also saw that Kiwi Crates
+made a quality gift for kids with lasting impact - seemingly a rare thing these
+days. Subscriptions to the ClubCompy Flier will be just like Kiwi Crates but for
+software. Kids will "put together" pre-assembled games and apps by typing them
+in. The ClubCompy Flier will be a great use of free-time, with an endgoal to be
+proud of, and very little physical waste!
+
+#### What ClubCompy Will Deliver
+
+Here is our current plan. A monthly subscription will include:
+
+* A mailed hardcopy of the ClubCompy Flier as frequently as we are able to
+  produce them
+  * initially (2025-2026) expect 1 issue every 6 months, gradually increasing to
+    monthly as the business expands and we can get a steady stream of content
+* Access for 1 adult and 1 child to https://clubcompy.com[clubcompy.com]
+  * Additional kid subscriptions can be tacked onto the base subscription
+
+Here are some of the benefits of ClubCompy Flier and clubcompy.com:
+
+* Gives an introduction to computing as a programmer rather than as a user
+* Touches advanced computer science topics and techniques in an unassuming,
+ad hoc, beginner-friendly way
+* Provides lots of game projects that keep kids engaged and stretch the mind
+to use imagination and engaging system thinking
+* Favor typing on the keyboard over using mouse to interact with the computer,
+typing skills!
+
+
+#### We Can't Do This Alone
+
+We need the community's help writing articles for the ClubCompy Flier. We will
+invite software and accompanying articles to be written by enthusiastic users
+for which we will pay a modest commission - think $75-$250 in 2025 dollars. As
+we will have a dearth of content at the beginning, we will roll over what moneys
+we take in each month to pay for articles every month bounty-style, so early
+article submissions that make it into the Flier may end up paying more.
+
+That will only pay for some of your doughnuts and coffee, but it is very cool
+to share your coding and writing gifts with the world and see your name
+in print. We'd appreciate getting your help with quality articles and landing
+more subscribers to the Flier.
+
+As mentioned earlier, we're planning to start with two issues of the ClubCompy
+Flier in the first year in a modest newsletter format and printing technology.
+As we get lots of subscribers and high quality submissions, we'll be able to
+hire more help and work the business up to support a monthly subscription with
+improved printing and binding quality.
+
+---
+
+_[The rest of this post is here just to get the history of clubcompy.com and
+VCE development written down somewhere so that I stop dwelling on them and
+devote all of my focus to subscriptions and the newsletter. Please read on if
+passion project history interests you.]_
+
+#### Some Background
+
+I made a discovery on Christmas Eve 2008 that led to ClubCompy. There was an
+item on Hacker News that gave a
+https://web.archive.org/web/20080827215649/http://developer.mozilla.org/en/Canvas_tutorial[tutorial on the new canvas tag] that Mozilla had recently added to Firefox to reach feature parity
+with Safari. I suspected canvas represented a massive evolution to the browser
+operating environment, which was previously document-centric. Now it was becoming
+a general purpose development platform, like an operating system.
+
+My very first inclination was to recreate the Pet-SCII capital letter A character
+from the old Commodore 8-bit computers since I could work out the outline of it
+from memory:
+
+[.tiny-image]
+image::/images/Pet-SCII_A.png["Pet-SCII Letter A"]
+
+By the end of the night, I had my virtual 320x240 screen filled with big chunky
+A's. I had only rudimentary HTML, CSS and JavaScript knowledge at the
+time, but just with that proof-of-concept I knew I would be dropping everything
+and making a computer emulator or simulator or ... something.
+
+By May 2009, there was a high level system design for the multi-planar character
+graphics system with double buffered page flipping, parallax scrolling, and
+sprites that has largely held up since. It was designed for compatibility with
+IE6 and modern HTML5 browsers like Firefox and Chrome. Google had produced a
+klunky canvas tag polyfill for IE that allowed us to map our draw commands to
+byzantine https://en.wikipedia.org/wiki/Vector_Markup_Language[VML] tags.
+
+While the IE version was sub-10 FPS, it worked and it could grind through
+colorful graphical game frames with an identical look and feel to modern
+browsers. Mad props to the original IE team!
+
+On modern browsers, the graphics felt so authentic.  When the screen scrolled
+by rows of characters, the display had that clockwork clickity-clickity motion
+just like a classic 8-bit computer had.  On IE, it was slow enough that one
+could watch the screen draw. It was still charming but not pleasant to work
+with.
+
+I knew some retro-flavored home computer simulator would be the goal without
+being faithful to any classic machine; it would be a fantasy machine. Things
+that a new learner would interact with intensely at first would be simple:
+8- or 16-bit graphics, BASIC-like language, simple FM sound. But the underlying
+computer would be a modern 32-bit or 64-bit with full memory and math
+capabilities. Basically a retro-styled computer with some gentle obstacles here
+or there, but when kiddo explores beyond that, the sky's the limits! AND THIS,
+my friends, would be an epic learning tool for kids.
+
+By the end of 2009, we had discovered
+https://jscc.brobston.com/documentation/introducing/welcome.html[JSCC], a pure
+JavaScript parser generator, and we used it to make our BASIC-like language, now
+called Comfy. Many parts of it were a simple abstraction over JavaScript, so it
+performed decently.
+
+In 2010 https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API[Gamepad]
+and in 2011,
+https://web.archive.org/web/20110604061057/https://developer.mozilla.org/en/Introducing_the_Audio_API_Extension[Firefox's streaming Audio] API's
+dropped. Along with Local Storage and AJAX, the browser was now a complete
+environment for games, a huge milestone and legacy tech like Flash went into
+full retreat.
+
+We built low-power rack mounted computers and got hosting for clubcompy.com!
+The site was up and even got featured once on Hacker News while I was on vacation
+in Hawaii! It was such an exciting time.
+
+And then, right after launching a Kickstarter to create a business out of
+ClubCompy, we also kickstarted a family.
+
+**TO BE CONTINUED**
+
+-- Woldie
+
+'''
+
+_DISCLAIMER: The diagram at the top of this page is but a shadow of its final
+form. Eventually, we want to see a navigable zoomable diagram with resource
+allocations, completion status, and lots of interesting drilldown details. In
+any case, the diagram may contain forward-looking information.  It should not be
+treated as a commitment by Woldrich, Inc to deliver anything, especially as we
+find our product's market fit which could send us someplace completely
+different. We will do our best to deliver everything should the fates allow, but
+please bear in mind that we are slaves to what time and energy are made
+available to us._

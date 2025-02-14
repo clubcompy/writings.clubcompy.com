@@ -1,0 +1,48 @@
+---
+title: "Asciidoctor Hugo & PlantUML & Mermaid"
+date: "2020-07-31"
+draft: true
+categories: ["Hugo", "Asciidoc", "Mermaid"]
+tags: ["asciidoctor", "hugo", "markup", "uml", "configuration"]
+onhomepage: true
+---
+
+:imagesoutdir: static/diagrams
+
+= Asciidoctor Hugo & PlantUML
+
+[plantuml, simple-diagram, svg]
+....
+start
+:Init Phase;
+:Transfer Phase;
+note right
+  long running activity,
+  process requires signal to proceed
+end note
+:Termination Phase;
+stop
+....
+
+[mermaid, mermaider, svg]
+ifdef::env-github[[source,mermaid]]
+....
+mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectiveness<br/>and features my map
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
+....
+
